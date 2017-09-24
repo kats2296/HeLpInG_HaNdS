@@ -1,0 +1,113 @@
+/*
+.col-sm-1
+{
+	background-color: red;
+}
+
+.col-sm-2
+{
+	background-color: pink;
+}
+
+.col-sm-4
+{
+	background-color: brown;
+}
+*/
+/*
+input[type="text"]{
+    background-color:black;
+    color:red;
+    outline: none;
+}*/
+
+#services
+{
+	height: 800px;
+	 background-color: #673ab7;
+	 padding-top:50px;
+}
+#aboutus
+{
+	height: 800px;
+	background-color: #00bcd4;
+	padding-top:50px;
+}
+
+#contactus
+{
+	height: 800px;
+	background-color: #009688;
+	padding-top:50px;
+}
+.navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+body
+{
+/*	background-image: url("hhlogo.jpg");*/
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: #009688;
+
+}
+/*
+.h
+{
+	color:red;
+}*/
+
+/*
+#form1
+{
+ background: -webkit-linear-gradient(bottom, #009688, #434343 175px);
+  margin: auto;
+  position: relative;
+  width: 400px;
+  height: 600px;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: bold;
+  color: black;
+  text-decoration: red;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#form2
+{
+  background: -webkit-linear-gradient(bottom, #673ab7, #434343 175px);
+  margin: auto;
+  position: relative;
+  width: 400px;
+  height: 250px;
+  font-family: Tahoma,sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: bold;
+  color: #09C;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}*/
+
+.foot
+{
+	height: 50px;
+	background-color: #2f2f2f;/* Black Gray */
+      color: #fff;
+}

@@ -1,0 +1,82 @@
+<?php
+
+echo "<html>
+<title>helping hands </title>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+<link rel='stylesheet' href='book.css'>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+<link rel='stylesheet' type='text/css' href='book.css'>
+</head>
+<body backgroundimage='hhlogo.jpg'>
+<nav class='navbar navbar-inverse ' >
+  <div class='container-fluid '>
+    <div class='navbar-header'>
+      <a class='navbar-brand' href='#'><font style='font-family:verdana;'>HELPING HAND</font> </a>
+    </div>
+    <ul class='nav navbar-nav navbar-right'>
+      <li class='active'><a href='#'>Home</a></li>
+      <li><a href='#'>HOME</a></li>
+      <li><a href='#'>ABOUT US</a></li>
+      <li><a href='#'>CONTACT US</a></li>
+      <li><a href='#'>LOGIN/SIGN UP</a></li>
+    </ul>
+  </div>
+</nav>
+<div class='A'>
+<div class='q'>
+
+   <div class='q1'>
+ 
+	 <div id='d1'>
+
+ <center> <img src ='1.jpg' id="d2"></img></center>
+   </div id='d1'>
+   <ul><br><br>
+    <li>NAME: '.$row['NAME'].'</li><br>
+	<li>CONTACT:'.$row['CONTACT'].' </li><br>
+	<li> LOCATION:'.$row['LOCATION'].' </li><br>
+	<li> GENDER:'.$row['GENDER'].'</li><br>
+	<li>PAST-RATING:'.$row['PAST-RATING'].'</li><br>
+	</ul>
+	</div>
+   
+   
+   
+    <div class='q2'>
+     <div class='q2b'>
+       <form action='booking1.php' method='POST' autocomplete='on' id='f1'> <br><br>         
+          <legend><strong><i class='fa fa-bars'></i> INFORMATION OF USER </strong></legend>
+          <i class='glyphicon glyphicon-user'></i>
+          <input type='text' name='name' autofocus='on' placeholder='Name' required='on' id='f2' class='btn btn-primary' data-toggle='tooltip' title='ENTER THE NAME'><br><br>
+          
+          <i class='glyphicon glyphicon-phone'></i>
+          <input type='number' name='phone_no' autofocus='on' placeholder='Phone Number' required='on' id='f2' class='btn btn-primary' data-toggle='tooltip' title='ENTER YOUR MOB NO' ><br><br>
+          <i class='glyphicon glyphicon-envelope'></i>
+          <input type='number' name='pincode' autofocus='on' placeholder='Pincode' required='on' id='f2' class='btn btn-primary' data-toggle='tooltip' title='ENTER THE PINCODE'><br><br>
+          <i class='glyphicon glyphicon-home'></i>
+          <textarea rows='2' cols='22' autofocus='on' placeholder='Address' required='on' id='f2' class='btn btn-primary' data-toggle='tooltip' title='ENTER THE ADDRESS'></textarea><br>
+          <input type='checkbox' name='address' value='Same as login address' id='f2'><strong>Same as Login Address</strong><br><br>
+          <i class='fa fa-file'></i>
+            <textarea rows='5' cols='22' autofocus='on' placeholder='PROBLEM IN DETAIL' required='on' id='f2' class='btn btn-primary' data-toggle='tooltip' title='ENTER YOUR PROBLEM IN DETAILS'></textarea><br><br>
+          <input type='submit' name='book' value='Book' id='f3' class='btn btn-primary' data-toggle='tooltip' title='press to book'>
+          <input type='reset' name='submit' id='f3' class='btn btn-primary' data-toggle='tooltip' title='press to reset'>
+          
+      </form>
+
+    </div>
+  </div>
+
+</div>
+</div>
+
+</body>
+</html>";
+
+$conn->close();
+?>

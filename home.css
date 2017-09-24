@@ -1,0 +1,257 @@
+body
+{
+    background-image:url("");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-size:cover;
+}
+h1 {
+   text-shadow: 0 0 3px #000000;
+   /*text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;*/
+}
+h2 {
+   text-shadow: 0 0 3px #0000FF;
+   /*text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;*/
+}
+h3 {
+   text-shadow: 0 0 3px #0000FF;
+   /*text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;*/
+}
+#shawdow
+{
+	text-shadow: 0 0 3px #FF00FF;
+}
+.modl
+{
+	background-image:url("loc.jpg");
+	    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+		background-size:cover;
+
+}
+.hh
+{
+	    background-image:url("hhlogo.jpg");
+}
+.j
+{
+	width:100%;
+	height:100%;
+	opacity:0.5;
+}
+.t
+{
+	height:15%;
+	width:100%;
+	/*background-color:green;
+	background-image:url("hhlogo.jpg");
+	opacity:0.6;*/
+}
+#bar
+{
+	height:12%;
+	width:100%;
+	/*background-color:pink;*/
+}
+#s
+{
+	height:55%;
+	width:100%;
+	background-image:url("space.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+	background-size: cover;
+    opacity:1;
+}
+
+.l
+{
+	height:100%;
+	width:12%;
+	/*background-color:green;*/
+	float:left;
+}
+.cntct
+{
+	text-align:center;
+	height:100%;
+	width:100%;
+	/*background-color:lime;*/
+}
+#m
+{
+	height:100%;
+	width:76%;
+	/*background-color:red;*/
+	float:left;
+}
+
+#br
+{
+	height:18%;
+	width:100%;
+}
+.clm
+{
+	width:31%;
+	height:51%;
+	color:black;
+	float:left;
+	box-shadow: 10px 10px 5px black;
+	/*background-color:darkgreen;*/
+	margin:10px;
+	border
+	padding:10px;
+	border:;
+}
+.c
+{
+	height:72%;
+	width:100%;
+	/*background-color:gray;*/
+}
+#mgn
+{
+	width:12%;
+	height:15%;
+	float:left;
+	background-color:lime;
+}
+#line
+{
+	height:8%;
+	width:79%;
+	float:left;
+	background-color: green;
+}
+
+.b
+{
+	height:60%;
+	width:100%;
+	background-color:darkblue;
+	opacity:0.7;
+}
+.w
+{
+	height:200%;
+	width:100%;
+	/*background-color:lightblue;*/
+}
+.block
+{
+	margin:30px;
+	height:71%;
+	width:27%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*box-shadow: 10px 10px 5px grey;
+	/*background-color:blue;
+	border:5px double black;*/
+	float:left;
+}
+.bdr
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.blk
+{
+	height:98%;
+	width:25%;
+	float:left;
+	margin:10px;
+	padding:5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+.pic
+{
+	height:100%;
+	width:18%;
+	float:left;
+	margin:10px;
+	/*background-color:magenta;*/
+	padding:5px;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+#r
+{
+	height:35%;
+	width:100%;
+	/*background-color:red;*/
+}
+#r1
+{
+	height:45%;
+	width:100%;
+}
+#r2
+{
+	height:28%;
+	width:100%;
+	background-color:darkblue;
+	
+}
+#cl
+{
+	height:43%;
+	width:12%;
+	float:left;
+	/*background-color:lime;*/
+}
+#mdlr2
+{
+	height:43%;
+	width:76%;
+	float:left;
+}
+.bblk
+{
+	height:100%;
+	width:38%;
+	float:left;
+	margin:10px;
+	padding:5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
